@@ -20,9 +20,7 @@ def _attack() -> bool:
     if userBalances(self.dao_address) == 0:
     	return False
 
-    self.dao_address.withdraw:
-        return False
-
+    self.dao_address.withdraw():
     return True
 
 @external
